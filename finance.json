@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "version": 1,
+    "app": "Finance CRM"
+  },
+  "accounts": [
+    {
+      "id": "gg3hwr5k",
+      "name": "Крипта",
+      "type": "crypto",
+      "initial": 0,
+      "currency": "USD",
+      "coin": "BTC",
+      "cryptoAmount": 0,
+      "costBasis": 0
+    },
+    {
+      "id": "0x29ynq3",
+      "name": "Карта",
+      "type": "card",
+      "initial": 10000,
+      "currency": "USD"
+    },
+    {
+      "id": "fwctgyb9",
+      "name": "Наличка",
+      "type": "cash",
+      "initial": 0,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [],
+  "settings": {
+    "weeklyIncome": 200,
+    "weeklyLimit": 50,
+    "usdToUah": 45.5,
+    "displayCurrency": "USD",
+    "manualRates": {}
+  },
+  "cryptoRates": {
+    "BTC": 82324
+  },
+  "cryptoHistory": [
+    {
+      "date": "2026-10-16",
+      "value": 0,
+      "cost": 0
+    }
+  ],
+  "weeklyBudget": {
+    "currentWeekStart": "2026-10-12",
+    "history": []
+  }
+}
